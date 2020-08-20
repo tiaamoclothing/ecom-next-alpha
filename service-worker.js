@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.91ec08eb3eae315dc490b0e39ecb4288.js"
+  "/precache-manifest.9de40367c3e9d8095a15d8340a391c25.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "ecom-test"});
+workbox.core.setCacheNameDetails({prefix: "Tiaamo.com"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
