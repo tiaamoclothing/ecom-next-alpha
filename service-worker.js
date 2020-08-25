@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.efd8e58c8b67c489a5e2e0d03b2310fd.js"
+  "/precache-manifest.39d636f3451fe754a7c1c94c76efd3d2.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "Tiaamo.com"});
